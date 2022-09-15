@@ -9,11 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        
+        //Scroll view
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("My library")
+                .font(.largeTitle)
+                .bold()
+            //For each...
+            Card()
+
         }
         .padding()
     }

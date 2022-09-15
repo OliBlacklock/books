@@ -22,7 +22,7 @@ class BookModel: ObservableObject {
                 let decoder = JSONDecoder()
                 
                 do {
-                    var jsonBooks = try decoder.decode(([Book].self), from: data)
+                    let jsonBooks = try decoder.decode(([Book].self), from: data)
 //                    for index in 0..<jsonBooks.count {
 //                        jsonBooks[index].id = UUID()
 //                    }
