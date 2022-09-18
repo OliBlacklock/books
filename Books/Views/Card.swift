@@ -13,6 +13,8 @@ struct Card: View {
     
     var body: some View {
         
+      //ForEach(model.books) { b in
+
         GeometryReader { geo in
             
             ZStack {

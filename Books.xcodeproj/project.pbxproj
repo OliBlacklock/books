@@ -15,6 +15,7 @@
 		A72F5BD728D267B700CE29A9 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = A72F5BD628D267B700CE29A9 /* Data.json */; };
 		A72F5BDB28D269D400CE29A9 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72F5BDA28D269D400CE29A9 /* Book.swift */; };
 		A72F5BDD28D26B2D00CE29A9 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72F5BDC28D26B2D00CE29A9 /* BookModel.swift */; };
+		A7E73A6228D751AE005A9A2E /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E73A6128D751AE005A9A2E /* BookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		A72F5BD628D267B700CE29A9 /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 		A72F5BDA28D269D400CE29A9 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		A72F5BDC28D26B2D00CE29A9 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		A7E73A6128D751AE005A9A2E /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				A72F5BD228D2670C00CE29A9 /* Views */,
-				A72F5BD828D2697300CE29A9 /* Model */,
 				A72F5BD928D2699000CE29A9 /* View model */,
+				A72F5BD828D2697300CE29A9 /* Model */,
 				A72F5BD528D2677300CE29A9 /* Data */,
 				A72F5BC828D2661B00CE29A9 /* Assets.xcassets */,
 				A72F5BCA28D2661B00CE29A9 /* Preview Content */,
@@ -82,6 +84,7 @@
 			children = (
 				A72F5BC428D2661700CE29A9 /* BooksApp.swift */,
 				A72F5BC628D2661700CE29A9 /* ContentView.swift */,
+				A7E73A6128D751AE005A9A2E /* BookView.swift */,
 				A72F5BD328D2675400CE29A9 /* Card.swift */,
 			);
 			path = Views;
@@ -185,6 +188,7 @@
 				A72F5BDD28D26B2D00CE29A9 /* BookModel.swift in Sources */,
 				A72F5BDB28D269D400CE29A9 /* Book.swift in Sources */,
 				A72F5BC728D2661700CE29A9 /* ContentView.swift in Sources */,
+				A7E73A6228D751AE005A9A2E /* BookView.swift in Sources */,
 				A72F5BD428D2675400CE29A9 /* Card.swift in Sources */,
 				A72F5BC528D2661700CE29A9 /* BooksApp.swift in Sources */,
 			);
